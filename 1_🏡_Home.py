@@ -12,6 +12,7 @@ hide_st_style =""""
             """
 st.markdown (hide_st_style, unsafe_allow_html=True) 
 
+st.balloons()
 st. markdown("<h1 style='text-align: center; color: grey;'>APLIKASI PENGHITUNG LUAS BANGUN DUA DIMENSI DAN TIGA DIMENSI</h1>",  unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: grey;'>👋Selamat Datang Kawan-Kawan👋</h2>", unsafe_allow_html=True)
 st.write("---" )
