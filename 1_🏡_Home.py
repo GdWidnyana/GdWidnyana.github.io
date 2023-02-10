@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(
-    page_title="multipage app",
+    page_title="WebApps Penghitung Luas Bangun",
 )
 
 st. markdown("<h1 style='text-align: center; color: grey;'>APLIKASI PENGHITUNG LUAS BANGUN DUA DIMENSI DAN TIGA DIMENSI</h1>",  unsafe_allow_html=True)
