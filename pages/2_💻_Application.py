@@ -1,6 +1,19 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+st.set_page_config(
+    page_title="Application",
+)
+
+hide_st_style =""""
+            <style>
+            #mainmenu {visibility: hidden}
+            footer {visibility: hidden}
+            header {visibility: hidden}
+            <style>
+            """
+st.markdown (hide_st_style, unsafe_allow_html=True) 
+
 st. markdown("<h1 style='text-align: center; color: white;'>APLIKASI PENGHITUNG LUAS BANGUN DUA DIMENSI DAN TIGA DIMENSI</h1>",  unsafe_allow_html=True)
 st.write("---")
 st.write("###")
