@@ -1,7 +1,17 @@
 import streamlit as st
+
 st.set_page_config(
-    page_title="multipage app",
+    page_title="Profile Developer",
 )
+
+hide_st_style =""""
+            <style>
+            #mainmenu {visibility: hidden}
+            footer {visibility: hidden}
+            header {visibility: hidden}
+            <style>
+            """
+st.markdown (hide_st_style, unsafe_allow_html=True) 
 
 st. markdown("<h1 style='text-align: center; color: orange;'>PROFILE DEVELOPER</h1>",  unsafe_allow_html=True)
 st.write("---")
